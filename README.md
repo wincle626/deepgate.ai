@@ -14,8 +14,7 @@ data  →  train / generate  →  validate  →  export to .tflite
 
 ## Environment
 
-All scripts run against the pre-built virtual environment in `pyenv/` (not
-documented here). Invoke Python through it rather than your system Python:
+All scripts run against the pre-built virtual environment in `pyenv/` (using Python 3.12 under WSL2). Invoke Python through it rather than your system Python:
 
 ```bash
 # from the deepgate root
