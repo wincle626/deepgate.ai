@@ -207,3 +207,13 @@ data, so run the corresponding `*_data.py` (or the trainer) first.
 1. Need an account first and create a project for specific devices.
 2. Currently, only the testcases by DeepGate works in `00.default` folder, by using the schema.json not the .tflite. Need to understand why.
 3. `01.alexnet` and `02.resnet` are not working properly when uploading, which has hint of "failed to fetch files". Might because of the large size of model .json. 
+
+## Some Thoughts
+
+1. Could it support ONNX ?
+2. Could it automatically convert quantize the model ?
+3. Could it specify the actual available hardware platform for hobby users ?
+4. Could it include more detail instructions across different OS ?
+5. Could it provide more detail about building up custom models ?
+6. Could it support actual hardware generation rather than existing IoT platforms ?
+7. Could it consider constomized arithmetic and quantization rather int8 ? 
