@@ -201,3 +201,9 @@ data, so run the corresponding `*_data.py` (or the trainer) first.
 - **`schema.json` can be large** when a model has wide fully-connected layers
   (AlexNet's is ~100 MB because of its 4096-wide FC head; ResNet's is ~48 MB).
   The weights are serialized as JSON arrays.
+
+## Upload to DeepGate Project
+
+1. Need an account first and create a project for specific devices.
+2. Currently, only the testcases by DeepGate works in `00.default` folder, by using the schema.json not the .tflite. Need to understand why.
+3. `01.alexnet` and `02.resnet` are not working properly when uploading, which has hint of "failed to fetch files". Might because of the large size of model .json. 
