@@ -211,7 +211,7 @@ data, so run the corresponding `*_data.py` (or the trainer) first.
 ## Some Thoughts
 
 1. Could it support ONNX ?
-2. Could it automatically convert quantize the model ?
+2. Could it automatically convert or quantize the model ?
 3. Could it specify the actual available hardware platform for hobby users ?
 4. Could it include more detail instructions across different OS ?
 5. Could it provide more detail about building up custom models ?
